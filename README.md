@@ -86,7 +86,7 @@ The top-level directory structure look like the following:
 A table is inserted in the metadata file in Postgresql. This table has two rows to store `Last_heartbeat` and `scheduler`. `Last_heartbeat` is used to compare with the current time. If the interval exceed some theshold, the standby scheduler will take over the job. `scheduler` is used to indicate which scheduler is running right now.
 
 ## Acknowledgement
-Finally, I would like to thank Yagizkaymak for the pioneer work done before this project!
+Finally, I would like to thank Yagiz kaymak for the original idea and the pioneer work done before this project! 
 
 
 
